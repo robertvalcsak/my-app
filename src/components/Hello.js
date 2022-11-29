@@ -1,9 +1,10 @@
 import './Hello.css';
 
-function Hello() {
+function Hello(props) {
+ console.log(props)
   return (
     <div className="Hello">
-        First react component
+        I am {props.name} I am {props.age} years old
     </div>
   );
 }
