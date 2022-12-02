@@ -4,11 +4,11 @@ import "./Pizza.css";
 function Pizza({ name, id, ingredients, price, picture }) {
   // const pizzaName = pizzaData.name
   // const {name} = pizzaData
-  const [isFavorite, setIsFavorite] = useState();
+  const [isFavorite, setIsFavorite] = useState(false);
 
   useEffect(
     function () {
-      // console.log(isFavorite);
+    console.log(isFavorite);
     }
     // [isFavorite]
   );
